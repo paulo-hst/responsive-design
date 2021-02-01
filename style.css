@@ -184,10 +184,33 @@ footer a{
 /* MEDIA QUERIES */
 
 /* Tablets */
-@media screen and (max-width: 748px){
+@media screen and (max-width: 768px){
 
+    header nav{
+        float: none;
+        clear: left;
+        width: 100%;
+    }
+    header nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li{
+        margin: 10px 0;
+        width: 20%;
+        padding: 0;
+        text-align: center;
+    }
+    h1.logo{
+        margin: 10px auto 0 ;
+        float: none;
+    }
     #featured li{
-        width: 46%;
+        width: 48%;
+    }
+    footer ul{
+        width: 48%;
+        text-align: center;
     }
 
 }
@@ -195,8 +218,5 @@ footer a{
 /* Mobiles */
 @media screen and (max-width: 480px){
 
-    #featured li{
-        width: 92%;
-    }
-
+    
 }
