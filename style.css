@@ -183,7 +183,8 @@ footer a{
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px){
+/* Tablets */
+@media screen and (max-width: 748px){
 
     #featured li{
         width: 46%;
@@ -191,7 +192,8 @@ footer a{
 
 }
 
-@media screen and (max-width: 400px){
+/* Mobiles */
+@media screen and (max-width: 480px){
 
     #featured li{
         width: 92%;
