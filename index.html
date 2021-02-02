@@ -28,8 +28,12 @@
         
         <!-- Start homepage content -->
         
-        <div id="main-banner">
-            <img src="images/banner.jpg" alt="Welcome to Resto">
+        <div id="main-banner"> 
+            <picture>
+                <source srcset="images/banner.jpg" media="(max-width: 480px)">
+                <source srcset="images/banner.jpg" media="(max-width: 768px)">
+                <img src="images/banner.jpg" alt="Welcome to Resto">
+            </picture>
         </div>
         
         <div class="wrapper">

@@ -224,7 +224,7 @@ footer a{
         height: 40px;
         width: 100%;
         background: url(images/menu_icon.svg) no-repeat 98% center;
-        background-color: #404040;
+        background-color: #fff;
         cursor: pointer;
     }
 
