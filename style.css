@@ -235,7 +235,7 @@ footer a{
     header nav ul{
         overflow: hidden;
         background-color: #505050;
-        // height: 0;
+        height: 0;
     }
     header nav ul.open{
         height: auto;
